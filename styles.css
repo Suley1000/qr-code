@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+.card {
+  width: 32rem;
+  padding: 1.6rem;
+  padding-bottom: 4rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.qr-code {
+  width: 28.8rem;
+  height: 28.8rem;
+  border-radius: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  color: #1f314f;
+  margin-bottom: 1.6rem;
+}
+
+.card-body {
+  font-size: 1.5rem;
+  line-height: 1.89rem;
+  letter-spacing: 0.019rem;
+  color: #7d889e;
+  padding: 0 1rem;
+}
